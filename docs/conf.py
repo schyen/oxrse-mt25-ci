@@ -6,9 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'OxRSE mt25 CI Course Practical'
-copyright = '2025, Sandi Yen'
-author = 'Sandi Yen'
+project = 'testin'
+copyright = '2025, sandi'
+author = 'sandi'
 release = '0.1'
 
 # -- General configuration ---------------------------------------------------
@@ -17,7 +17,7 @@ release = '0.1'
 extensions = []
 
 templates_path = ['_templates']
-exclude_patterns = []
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 language = 'python'
 
